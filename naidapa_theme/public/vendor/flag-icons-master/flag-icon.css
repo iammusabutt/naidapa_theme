@@ -1,0 +1,1300 @@
+@charset "UTF-8";
+.flag-icon-background, .flag-icon {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat; }
+
+.flag-icon {
+  position: relative;
+  display: inline-block;
+  width: 1.3333333333em;
+  line-height: 1em; }
+  .flag-icon:before {
+    content: " "; }
+  .flag-icon.flag-icon-squared {
+    width: 1em; }
+
+.flag-icon-abw {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/abw.svg); }
+  .flag-icon-abw.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/abw.svg); }
+
+.flag-icon-afg {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/afg.svg); }
+  .flag-icon-afg.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/afg.svg); }
+
+.flag-icon-ago {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/ago.svg); }
+  .flag-icon-ago.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/ago.svg); }
+
+.flag-icon-aia {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/aia.svg); }
+  .flag-icon-aia.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/aia.svg); }
+
+.flag-icon-ala {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/ala.svg); }
+  .flag-icon-ala.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/ala.svg); }
+
+.flag-icon-alb {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/alb.svg); }
+  .flag-icon-alb.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/alb.svg); }
+
+.flag-icon-and {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/and.svg); }
+  .flag-icon-and.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/and.svg); }
+
+.flag-icon-are {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/are.svg); }
+  .flag-icon-are.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/are.svg); }
+
+.flag-icon-arg {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/arg.svg); }
+  .flag-icon-arg.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/arg.svg); }
+
+.flag-icon-arm {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/arm.svg); }
+  .flag-icon-arm.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/arm.svg); }
+
+.flag-icon-asm {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/asm.svg); }
+  .flag-icon-asm.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/asm.svg); }
+
+.flag-icon-ata {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/ata.svg); }
+  .flag-icon-ata.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/ata.svg); }
+
+.flag-icon-atf {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/atf.svg); }
+  .flag-icon-atf.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/atf.svg); }
+
+.flag-icon-atg {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/atg.svg); }
+  .flag-icon-atg.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/atg.svg); }
+
+.flag-icon-aus {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/aus.svg); }
+  .flag-icon-aus.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/aus.svg); }
+
+.flag-icon-aut {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/aut.svg); }
+  .flag-icon-aut.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/aut.svg); }
+
+.flag-icon-aze {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/aze.svg); }
+  .flag-icon-aze.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/aze.svg); }
+
+.flag-icon-bdi {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/bdi.svg); }
+  .flag-icon-bdi.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/bdi.svg); }
+
+.flag-icon-bel {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/bel.svg); }
+  .flag-icon-bel.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/bel.svg); }
+
+.flag-icon-ben {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/ben.svg); }
+  .flag-icon-ben.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/ben.svg); }
+
+.flag-icon-bes {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/bes.svg); }
+  .flag-icon-bes.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/bes.svg); }
+
+.flag-icon-bfa {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/bfa.svg); }
+  .flag-icon-bfa.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/bfa.svg); }
+
+.flag-icon-bgd {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/bgd.svg); }
+  .flag-icon-bgd.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/bgd.svg); }
+
+.flag-icon-bgr {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/bgr.svg); }
+  .flag-icon-bgr.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/bgr.svg); }
+
+.flag-icon-bhr {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/bhr.svg); }
+  .flag-icon-bhr.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/bhr.svg); }
+
+.flag-icon-bhs {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/bhs.svg); }
+  .flag-icon-bhs.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/bhs.svg); }
+
+.flag-icon-bih {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/bih.svg); }
+  .flag-icon-bih.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/bih.svg); }
+
+.flag-icon-blm {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/blm.svg); }
+  .flag-icon-blm.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/blm.svg); }
+
+.flag-icon-blr {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/blr.svg); }
+  .flag-icon-blr.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/blr.svg); }
+
+.flag-icon-blz {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/blz.svg); }
+  .flag-icon-blz.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/blz.svg); }
+
+.flag-icon-bmu {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/bmu.svg); }
+  .flag-icon-bmu.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/bmu.svg); }
+
+.flag-icon-bol {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/bol.svg); }
+  .flag-icon-bol.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/bol.svg); }
+
+.flag-icon-bra {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/bra.svg); }
+  .flag-icon-bra.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/bra.svg); }
+
+.flag-icon-brb {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/brb.svg); }
+  .flag-icon-brb.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/brb.svg); }
+
+.flag-icon-brn {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/brn.svg); }
+  .flag-icon-brn.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/brn.svg); }
+
+.flag-icon-btn {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/btn.svg); }
+  .flag-icon-btn.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/btn.svg); }
+
+.flag-icon-bvt {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/bvt.svg); }
+  .flag-icon-bvt.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/bvt.svg); }
+
+.flag-icon-bwa {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/bwa.svg); }
+  .flag-icon-bwa.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/bwa.svg); }
+
+.flag-icon-caf {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/caf.svg); }
+  .flag-icon-caf.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/caf.svg); }
+
+.flag-icon-can {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/can.svg); }
+  .flag-icon-can.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/can.svg); }
+
+.flag-icon-cat {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/cat.svg); }
+  .flag-icon-cat.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/cat.svg); }
+
+.flag-icon-cck {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/cck.svg); }
+  .flag-icon-cck.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/cck.svg); }
+
+.flag-icon-che {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/che.svg); }
+  .flag-icon-che.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/che.svg); }
+
+.flag-icon-chl {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/chl.svg); }
+  .flag-icon-chl.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/chl.svg); }
+
+.flag-icon-chn {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/chn.svg); }
+  .flag-icon-chn.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/chn.svg); }
+
+.flag-icon-civ {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/civ.svg); }
+  .flag-icon-civ.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/civ.svg); }
+
+.flag-icon-cmr {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/cmr.svg); }
+  .flag-icon-cmr.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/cmr.svg); }
+
+.flag-icon-cod {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/cod.svg); }
+  .flag-icon-cod.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/cod.svg); }
+
+.flag-icon-cog {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/cog.svg); }
+  .flag-icon-cog.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/cog.svg); }
+
+.flag-icon-cok {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/cok.svg); }
+  .flag-icon-cok.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/cok.svg); }
+
+.flag-icon-col {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/col.svg); }
+  .flag-icon-col.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/col.svg); }
+
+.flag-icon-com {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/com.svg); }
+  .flag-icon-com.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/com.svg); }
+
+.flag-icon-cpv {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/cpv.svg); }
+  .flag-icon-cpv.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/cpv.svg); }
+
+.flag-icon-cri {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/cri.svg); }
+  .flag-icon-cri.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/cri.svg); }
+
+.flag-icon-cub {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/cub.svg); }
+  .flag-icon-cub.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/cub.svg); }
+
+.flag-icon-cuw {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/cuw.svg); }
+  .flag-icon-cuw.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/cuw.svg); }
+
+.flag-icon-cxr {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/cxr.svg); }
+  .flag-icon-cxr.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/cxr.svg); }
+
+.flag-icon-cym {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/cym.svg); }
+  .flag-icon-cym.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/cym.svg); }
+
+.flag-icon-cyp {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/cyp.svg); }
+  .flag-icon-cyp.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/cyp.svg); }
+
+.flag-icon-cze {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/cze.svg); }
+  .flag-icon-cze.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/cze.svg); }
+
+.flag-icon-deu {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/deu.svg); }
+  .flag-icon-deu.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/deu.svg); }
+
+.flag-icon-dji {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/dji.svg); }
+  .flag-icon-dji.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/dji.svg); }
+
+.flag-icon-dma {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/dma.svg); }
+  .flag-icon-dma.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/dma.svg); }
+
+.flag-icon-dnk {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/dnk.svg); }
+  .flag-icon-dnk.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/dnk.svg); }
+
+.flag-icon-dom {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/dom.svg); }
+  .flag-icon-dom.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/dom.svg); }
+
+.flag-icon-dza {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/dza.svg); }
+  .flag-icon-dza.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/dza.svg); }
+
+.flag-icon-ecu {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/ecu.svg); }
+  .flag-icon-ecu.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/ecu.svg); }
+
+.flag-icon-egy {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/egy.svg); }
+  .flag-icon-egy.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/egy.svg); }
+
+.flag-icon-eng {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/eng.svg); }
+  .flag-icon-eng.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/eng.svg); }
+
+.flag-icon-eri {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/eri.svg); }
+  .flag-icon-eri.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/eri.svg); }
+
+.flag-icon-esh {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/esh.svg); }
+  .flag-icon-esh.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/esh.svg); }
+
+.flag-icon-esp {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/esp.svg); }
+  .flag-icon-esp.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/esp.svg); }
+
+.flag-icon-est {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/est.svg); }
+  .flag-icon-est.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/est.svg); }
+
+.flag-icon-eth {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/eth.svg); }
+  .flag-icon-eth.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/eth.svg); }
+
+.flag-icon-eun {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/eun.svg); }
+  .flag-icon-eun.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/eun.svg); }
+
+.flag-icon-fin {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/fin.svg); }
+  .flag-icon-fin.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/fin.svg); }
+
+.flag-icon-fji {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/fji.svg); }
+  .flag-icon-fji.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/fji.svg); }
+
+.flag-icon-flk {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/flk.svg); }
+  .flag-icon-flk.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/flk.svg); }
+
+.flag-icon-fra {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/fra.svg); }
+  .flag-icon-fra.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/fra.svg); }
+
+.flag-icon-fro {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/fro.svg); }
+  .flag-icon-fro.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/fro.svg); }
+
+.flag-icon-fsm {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/fsm.svg); }
+  .flag-icon-fsm.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/fsm.svg); }
+
+.flag-icon-gab {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/gab.svg); }
+  .flag-icon-gab.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/gab.svg); }
+
+.flag-icon-gbr {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/gbr.svg); }
+  .flag-icon-gbr.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/gbr.svg); }
+
+.flag-icon-geo {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/geo.svg); }
+  .flag-icon-geo.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/geo.svg); }
+
+.flag-icon-ggy {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/ggy.svg); }
+  .flag-icon-ggy.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/ggy.svg); }
+
+.flag-icon-gha {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/gha.svg); }
+  .flag-icon-gha.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/gha.svg); }
+
+.flag-icon-gib {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/gib.svg); }
+  .flag-icon-gib.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/gib.svg); }
+
+.flag-icon-gin {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/gin.svg); }
+  .flag-icon-gin.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/gin.svg); }
+
+.flag-icon-glp {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/glp.svg); }
+  .flag-icon-glp.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/glp.svg); }
+
+.flag-icon-gmb {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/gmb.svg); }
+  .flag-icon-gmb.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/gmb.svg); }
+
+.flag-icon-gnb {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/gnb.svg); }
+  .flag-icon-gnb.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/gnb.svg); }
+
+.flag-icon-gnq {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/gnq.svg); }
+  .flag-icon-gnq.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/gnq.svg); }
+
+.flag-icon-grc {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/grc.svg); }
+  .flag-icon-grc.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/grc.svg); }
+
+.flag-icon-grd {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/grd.svg); }
+  .flag-icon-grd.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/grd.svg); }
+
+.flag-icon-grl {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/grl.svg); }
+  .flag-icon-grl.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/grl.svg); }
+
+.flag-icon-gtm {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/gtm.svg); }
+  .flag-icon-gtm.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/gtm.svg); }
+
+.flag-icon-guf {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/guf.svg); }
+  .flag-icon-guf.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/guf.svg); }
+
+.flag-icon-gum {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/gum.svg); }
+  .flag-icon-gum.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/gum.svg); }
+
+.flag-icon-guy {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/guy.svg); }
+  .flag-icon-guy.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/guy.svg); }
+
+.flag-icon-hkg {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/hkg.svg); }
+  .flag-icon-hkg.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/hkg.svg); }
+
+.flag-icon-hmd {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/hmd.svg); }
+  .flag-icon-hmd.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/hmd.svg); }
+
+.flag-icon-hnd {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/hnd.svg); }
+  .flag-icon-hnd.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/hnd.svg); }
+
+.flag-icon-hrv {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/hrv.svg); }
+  .flag-icon-hrv.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/hrv.svg); }
+
+.flag-icon-hti {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/hti.svg); }
+  .flag-icon-hti.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/hti.svg); }
+
+.flag-icon-hun {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/hun.svg); }
+  .flag-icon-hun.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/hun.svg); }
+
+.flag-icon-idn {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/idn.svg); }
+  .flag-icon-idn.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/idn.svg); }
+
+.flag-icon-imn {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/imn.svg); }
+  .flag-icon-imn.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/imn.svg); }
+
+.flag-icon-ind {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/ind.svg); }
+  .flag-icon-ind.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/ind.svg); }
+
+.flag-icon-iot {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/iot.svg); }
+  .flag-icon-iot.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/iot.svg); }
+
+.flag-icon-irl {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/irl.svg); }
+  .flag-icon-irl.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/irl.svg); }
+
+.flag-icon-irn {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/irn.svg); }
+  .flag-icon-irn.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/irn.svg); }
+
+.flag-icon-irq {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/irq.svg); }
+  .flag-icon-irq.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/irq.svg); }
+
+.flag-icon-isl {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/isl.svg); }
+  .flag-icon-isl.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/isl.svg); }
+
+.flag-icon-isr {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/isr.svg); }
+  .flag-icon-isr.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/isr.svg); }
+
+.flag-icon-ita {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/ita.svg); }
+  .flag-icon-ita.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/ita.svg); }
+
+.flag-icon-jam {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/jam.svg); }
+  .flag-icon-jam.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/jam.svg); }
+
+.flag-icon-jey {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/jey.svg); }
+  .flag-icon-jey.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/jey.svg); }
+
+.flag-icon-jor {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/jor.svg); }
+  .flag-icon-jor.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/jor.svg); }
+
+.flag-icon-jpn {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/jpn.svg); }
+  .flag-icon-jpn.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/jpn.svg); }
+
+.flag-icon-kaz {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/kaz.svg); }
+  .flag-icon-kaz.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/kaz.svg); }
+
+.flag-icon-ken {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/ken.svg); }
+  .flag-icon-ken.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/ken.svg); }
+
+.flag-icon-kgz {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/kgz.svg); }
+  .flag-icon-kgz.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/kgz.svg); }
+
+.flag-icon-khm {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/khm.svg); }
+  .flag-icon-khm.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/khm.svg); }
+
+.flag-icon-kir {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/kir.svg); }
+  .flag-icon-kir.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/kir.svg); }
+
+.flag-icon-kna {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/kna.svg); }
+  .flag-icon-kna.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/kna.svg); }
+
+.flag-icon-kor {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/kor.svg); }
+  .flag-icon-kor.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/kor.svg); }
+
+.flag-icon-kos {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/kos.svg); }
+  .flag-icon-kos.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/kos.svg); }
+
+.flag-icon-kwt {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/kwt.svg); }
+  .flag-icon-kwt.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/kwt.svg); }
+
+.flag-icon-lao {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/lao.svg); }
+  .flag-icon-lao.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/lao.svg); }
+
+.flag-icon-lbn {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/lbn.svg); }
+  .flag-icon-lbn.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/lbn.svg); }
+
+.flag-icon-lbr {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/lbr.svg); }
+  .flag-icon-lbr.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/lbr.svg); }
+
+.flag-icon-lby {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/lby.svg); }
+  .flag-icon-lby.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/lby.svg); }
+
+.flag-icon-lca {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/lca.svg); }
+  .flag-icon-lca.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/lca.svg); }
+
+.flag-icon-lie {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/lie.svg); }
+  .flag-icon-lie.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/lie.svg); }
+
+.flag-icon-lka {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/lka.svg); }
+  .flag-icon-lka.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/lka.svg); }
+
+.flag-icon-lso {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/lso.svg); }
+  .flag-icon-lso.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/lso.svg); }
+
+.flag-icon-ltu {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/ltu.svg); }
+  .flag-icon-ltu.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/ltu.svg); }
+
+.flag-icon-lux {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/lux.svg); }
+  .flag-icon-lux.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/lux.svg); }
+
+.flag-icon-lva {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/lva.svg); }
+  .flag-icon-lva.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/lva.svg); }
+
+.flag-icon-mac {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/mac.svg); }
+  .flag-icon-mac.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/mac.svg); }
+
+.flag-icon-maf {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/maf.svg); }
+  .flag-icon-maf.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/maf.svg); }
+
+.flag-icon-mar {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/mar.svg); }
+  .flag-icon-mar.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/mar.svg); }
+
+.flag-icon-mco {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/mco.svg); }
+  .flag-icon-mco.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/mco.svg); }
+
+.flag-icon-mda {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/mda.svg); }
+  .flag-icon-mda.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/mda.svg); }
+
+.flag-icon-mdg {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/mdg.svg); }
+  .flag-icon-mdg.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/mdg.svg); }
+
+.flag-icon-mdv {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/mdv.svg); }
+  .flag-icon-mdv.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/mdv.svg); }
+
+.flag-icon-mex {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/mex.svg); }
+  .flag-icon-mex.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/mex.svg); }
+
+.flag-icon-mhl {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/mhl.svg); }
+  .flag-icon-mhl.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/mhl.svg); }
+
+.flag-icon-mkd {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/mkd.svg); }
+  .flag-icon-mkd.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/mkd.svg); }
+
+.flag-icon-mli {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/mli.svg); }
+  .flag-icon-mli.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/mli.svg); }
+
+.flag-icon-mlt {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/mlt.svg); }
+  .flag-icon-mlt.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/mlt.svg); }
+
+.flag-icon-mmr {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/mmr.svg); }
+  .flag-icon-mmr.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/mmr.svg); }
+
+.flag-icon-mne {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/mne.svg); }
+  .flag-icon-mne.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/mne.svg); }
+
+.flag-icon-mng {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/mng.svg); }
+  .flag-icon-mng.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/mng.svg); }
+
+.flag-icon-mnp {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/mnp.svg); }
+  .flag-icon-mnp.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/mnp.svg); }
+
+.flag-icon-moz {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/moz.svg); }
+  .flag-icon-moz.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/moz.svg); }
+
+.flag-icon-mrt {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/mrt.svg); }
+  .flag-icon-mrt.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/mrt.svg); }
+
+.flag-icon-msr {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/msr.svg); }
+  .flag-icon-msr.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/msr.svg); }
+
+.flag-icon-mtq {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/mtq.svg); }
+  .flag-icon-mtq.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/mtq.svg); }
+
+.flag-icon-mus {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/mus.svg); }
+  .flag-icon-mus.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/mus.svg); }
+
+.flag-icon-mwi {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/mwi.svg); }
+  .flag-icon-mwi.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/mwi.svg); }
+
+.flag-icon-mys {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/mys.svg); }
+  .flag-icon-mys.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/mys.svg); }
+
+.flag-icon-myt {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/myt.svg); }
+  .flag-icon-myt.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/myt.svg); }
+
+.flag-icon-nam {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/nam.svg); }
+  .flag-icon-nam.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/nam.svg); }
+
+.flag-icon-ncl {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/ncl.svg); }
+  .flag-icon-ncl.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/ncl.svg); }
+
+.flag-icon-ner {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/ner.svg); }
+  .flag-icon-ner.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/ner.svg); }
+
+.flag-icon-nfk {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/nfk.svg); }
+  .flag-icon-nfk.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/nfk.svg); }
+
+.flag-icon-nga {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/nga.svg); }
+  .flag-icon-nga.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/nga.svg); }
+
+.flag-icon-nic {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/nic.svg); }
+  .flag-icon-nic.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/nic.svg); }
+
+.flag-icon-nir {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/nir.svg); }
+  .flag-icon-nir.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/nir.svg); }
+
+.flag-icon-niu {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/niu.svg); }
+  .flag-icon-niu.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/niu.svg); }
+
+.flag-icon-nld {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/nld.svg); }
+  .flag-icon-nld.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/nld.svg); }
+
+.flag-icon-nor {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/nor.svg); }
+  .flag-icon-nor.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/nor.svg); }
+
+.flag-icon-npl {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/npl.svg); }
+  .flag-icon-npl.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/npl.svg); }
+
+.flag-icon-nru {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/nru.svg); }
+  .flag-icon-nru.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/nru.svg); }
+
+.flag-icon-nzl {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/nzl.svg); }
+  .flag-icon-nzl.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/nzl.svg); }
+
+.flag-icon-omn {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/omn.svg); }
+  .flag-icon-omn.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/omn.svg); }
+
+.flag-icon-pak {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/pak.svg); }
+  .flag-icon-pak.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/pak.svg); }
+
+.flag-icon-pan {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/pan.svg); }
+  .flag-icon-pan.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/pan.svg); }
+
+.flag-icon-pcn {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/pcn.svg); }
+  .flag-icon-pcn.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/pcn.svg); }
+
+.flag-icon-per {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/per.svg); }
+  .flag-icon-per.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/per.svg); }
+
+.flag-icon-phl {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/phl.svg); }
+  .flag-icon-phl.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/phl.svg); }
+
+.flag-icon-plw {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/plw.svg); }
+  .flag-icon-plw.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/plw.svg); }
+
+.flag-icon-png {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/png.svg); }
+  .flag-icon-png.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/png.svg); }
+
+.flag-icon-pol {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/pol.svg); }
+  .flag-icon-pol.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/pol.svg); }
+
+.flag-icon-pri {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/pri.svg); }
+  .flag-icon-pri.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/pri.svg); }
+
+.flag-icon-prk {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/prk.svg); }
+  .flag-icon-prk.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/prk.svg); }
+
+.flag-icon-prt {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/prt.svg); }
+  .flag-icon-prt.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/prt.svg); }
+
+.flag-icon-pry {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/pry.svg); }
+  .flag-icon-pry.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/pry.svg); }
+
+.flag-icon-pse {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/pse.svg); }
+  .flag-icon-pse.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/pse.svg); }
+
+.flag-icon-pyf {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/pyf.svg); }
+  .flag-icon-pyf.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/pyf.svg); }
+
+.flag-icon-qat {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/qat.svg); }
+  .flag-icon-qat.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/qat.svg); }
+
+.flag-icon-reu {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/reu.svg); }
+  .flag-icon-reu.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/reu.svg); }
+
+.flag-icon-rou {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/rou.svg); }
+  .flag-icon-rou.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/rou.svg); }
+
+.flag-icon-rus {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/rus.svg); }
+  .flag-icon-rus.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/rus.svg); }
+
+.flag-icon-rwa {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/rwa.svg); }
+  .flag-icon-rwa.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/rwa.svg); }
+
+.flag-icon-sau {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/sau.svg); }
+  .flag-icon-sau.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/sau.svg); }
+
+.flag-icon-sco {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/sco.svg); }
+  .flag-icon-sco.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/sco.svg); }
+
+.flag-icon-sdn {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/sdn.svg); }
+  .flag-icon-sdn.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/sdn.svg); }
+
+.flag-icon-sen {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/sen.svg); }
+  .flag-icon-sen.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/sen.svg); }
+
+.flag-icon-sgp {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/sgp.svg); }
+  .flag-icon-sgp.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/sgp.svg); }
+
+.flag-icon-sgs {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/sgs.svg); }
+  .flag-icon-sgs.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/sgs.svg); }
+
+.flag-icon-shn {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/shn.svg); }
+  .flag-icon-shn.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/shn.svg); }
+
+.flag-icon-sjm {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/sjm.svg); }
+  .flag-icon-sjm.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/sjm.svg); }
+
+.flag-icon-slb {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/slb.svg); }
+  .flag-icon-slb.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/slb.svg); }
+
+.flag-icon-sle {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/sle.svg); }
+  .flag-icon-sle.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/sle.svg); }
+
+.flag-icon-slv {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/slv.svg); }
+  .flag-icon-slv.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/slv.svg); }
+
+.flag-icon-smr {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/smr.svg); }
+  .flag-icon-smr.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/smr.svg); }
+
+.flag-icon-som {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/som.svg); }
+  .flag-icon-som.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/som.svg); }
+
+.flag-icon-spm {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/spm.svg); }
+  .flag-icon-spm.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/spm.svg); }
+
+.flag-icon-srb {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/srb.svg); }
+  .flag-icon-srb.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/srb.svg); }
+
+.flag-icon-ssd {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/ssd.svg); }
+  .flag-icon-ssd.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/ssd.svg); }
+
+.flag-icon-stp {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/stp.svg); }
+  .flag-icon-stp.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/stp.svg); }
+
+.flag-icon-sun {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/sun.svg); }
+  .flag-icon-sun.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/sun.svg); }
+
+.flag-icon-sur {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/sur.svg); }
+  .flag-icon-sur.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/sur.svg); }
+
+.flag-icon-svk {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/svk.svg); }
+  .flag-icon-svk.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/svk.svg); }
+
+.flag-icon-svn {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/svn.svg); }
+  .flag-icon-svn.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/svn.svg); }
+
+.flag-icon-swe {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/swe.svg); }
+  .flag-icon-swe.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/swe.svg); }
+
+.flag-icon-swz {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/swz.svg); }
+  .flag-icon-swz.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/swz.svg); }
+
+.flag-icon-sxm {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/sxm.svg); }
+  .flag-icon-sxm.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/sxm.svg); }
+
+.flag-icon-syc {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/syc.svg); }
+  .flag-icon-syc.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/syc.svg); }
+
+.flag-icon-syr {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/syr.svg); }
+  .flag-icon-syr.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/syr.svg); }
+
+.flag-icon-tca {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/tca.svg); }
+  .flag-icon-tca.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/tca.svg); }
+
+.flag-icon-tcd {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/tcd.svg); }
+  .flag-icon-tcd.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/tcd.svg); }
+
+.flag-icon-tgo {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/tgo.svg); }
+  .flag-icon-tgo.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/tgo.svg); }
+
+.flag-icon-tha {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/tha.svg); }
+  .flag-icon-tha.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/tha.svg); }
+
+.flag-icon-tjk {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/tjk.svg); }
+  .flag-icon-tjk.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/tjk.svg); }
+
+.flag-icon-tkl {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/tkl.svg); }
+  .flag-icon-tkl.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/tkl.svg); }
+
+.flag-icon-tkm {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/tkm.svg); }
+  .flag-icon-tkm.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/tkm.svg); }
+
+.flag-icon-tls {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/tls.svg); }
+  .flag-icon-tls.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/tls.svg); }
+
+.flag-icon-ton {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/ton.svg); }
+  .flag-icon-ton.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/ton.svg); }
+
+.flag-icon-tto {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/tto.svg); }
+  .flag-icon-tto.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/tto.svg); }
+
+.flag-icon-tun {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/tun.svg); }
+  .flag-icon-tun.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/tun.svg); }
+
+.flag-icon-tur {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/tur.svg); }
+  .flag-icon-tur.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/tur.svg); }
+
+.flag-icon-tuv {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/tuv.svg); }
+  .flag-icon-tuv.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/tuv.svg); }
+
+.flag-icon-twn {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/twn.svg); }
+  .flag-icon-twn.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/twn.svg); }
+
+.flag-icon-tza {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/tza.svg); }
+  .flag-icon-tza.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/tza.svg); }
+
+.flag-icon-uga {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/uga.svg); }
+  .flag-icon-uga.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/uga.svg); }
+
+.flag-icon-ukr {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/ukr.svg); }
+  .flag-icon-ukr.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/ukr.svg); }
+
+.flag-icon-umi {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/umi.svg); }
+  .flag-icon-umi.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/umi.svg); }
+
+.flag-icon-ury {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/ury.svg); }
+  .flag-icon-ury.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/ury.svg); }
+
+.flag-icon-usa {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/usa.svg); }
+  .flag-icon-usa.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/usa.svg); }
+
+.flag-icon-uzb {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/uzb.svg); }
+  .flag-icon-uzb.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/uzb.svg); }
+
+.flag-icon-vat {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/vat.svg); }
+  .flag-icon-vat.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/vat.svg); }
+
+.flag-icon-vct {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/vct.svg); }
+  .flag-icon-vct.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/vct.svg); }
+
+.flag-icon-ven {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/ven.svg); }
+  .flag-icon-ven.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/ven.svg); }
+
+.flag-icon-vgb {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/vgb.svg); }
+  .flag-icon-vgb.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/vgb.svg); }
+
+.flag-icon-vir {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/vir.svg); }
+  .flag-icon-vir.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/vir.svg); }
+
+.flag-icon-vnm {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/vnm.svg); }
+  .flag-icon-vnm.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/vnm.svg); }
+
+.flag-icon-vut {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/vut.svg); }
+  .flag-icon-vut.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/vut.svg); }
+
+.flag-icon-wal {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/wal.svg); }
+  .flag-icon-wal.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/wal.svg); }
+
+.flag-icon-wlf {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/wlf.svg); }
+  .flag-icon-wlf.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/wlf.svg); }
+
+.flag-icon-wsm {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/wsm.svg); }
+  .flag-icon-wsm.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/wsm.svg); }
+
+.flag-icon-yem {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/yem.svg); }
+  .flag-icon-yem.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/yem.svg); }
+
+.flag-icon-zaf {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/zaf.svg); }
+  .flag-icon-zaf.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/zaf.svg); }
+
+.flag-icon-zmb {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/zmb.svg); }
+  .flag-icon-zmb.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/zmb.svg); }
+
+.flag-icon-zwe {
+  background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//4x3/zwe.svg); }
+  .flag-icon-zwe.flag-icon-squared {
+    background-image: url(https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/fonts/flag-icons-master//1x1/zwe.svg); }
