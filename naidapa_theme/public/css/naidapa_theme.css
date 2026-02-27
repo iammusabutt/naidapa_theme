@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+/* --- START CUSTOM NAV OVERRIDES --- */
+
+
+
+/* --- CUSTOM MENU ITEM STYLES --- */
+
+.naidapa-nav-group {
+    margin-bottom: 24px;
+}
+
+.naidapa-nav-title {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-secondary);
+    font-weight: 700;
+    padding: 0 24px;
+    margin-bottom: 12px;
+}
+
+.naidapa-nav-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 24px;
+    color: var(--text-primary);
+    text-decoration: none !important;
+    font-weight: 500;
+    transition: var(--transition-fast);
+    cursor: pointer;
+    border-left: 3px solid transparent;
+}
+
+.naidapa-nav-item i {
+    width: 20px;
+    text-align: center;
+    margin-right: 12px;
+    font-size: 16px;
+    color: var(--text-secondary);
+    transition: var(--transition-fast);
+}
+
+.naidapa-nav-item:hover {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}
+
+.naidapa-nav-item:hover i {
+    color: var(--primary-color);
+    transform: scale(1.1);
+}
+
+.naidapa-nav-item.active {
+    background-color: rgba(32, 178, 170, 0.1);
+    /* Primary color w/ opacity */
+    color: var(--primary-color);
+    border-left-color: var(--primary-color);
+}
+
+.naidapa-nav-item.active i {
+    color: var(--primary-color);
+}
+
+/* --- END CUSTOM NAV OVERRIDES --- */
+
+
+:root {
+    /* KI Admin Base Palette */
+    --primary: 15, 98, 106;
+    --secondary: 98, 98, 98;
+    --success: 10, 185, 100;
+    --danger: 225, 78, 90;
+    --warning: 249, 193, 35;
+    --info: 65, 150, 250;
+    --light: 200, 185, 210;
+    --dark: 40, 35, 45;
+    --white: 255, 255, 255;
+    --font-color: #082f32;
+    --body-color: #f5fbfb;
+    --bodybg-color: #f6f7fa;
+    --font-light-color: #a0a0b0;
+    --grid_color: rgba(144, 164, 246, 0.21);
+    --border_color: rgba(0, 0, 0, 0.21);
+    --black: 0, 0, 0;
+    --border_color: #ebedf0;
+    --bs-dropdown-link-active-color: rgba(var(--primary), 1);
+    --bs-dropdown-link-active-bg: rgba(var(--primary), 0.2);
+
+    /* Variables mapped for Frappe widgets */
+    --primary-color: #0f626a;
+    --primary-hover: #0c4e55;
+    --bg-color: var(--bodybg-color);
+    --surface-color: #ffffff;
+    --text-primary: var(--font-color);
+    --text-secondary: var(--font-light-color);
+    --border-color-frappe: var(--border_color);
+
+    --box-shadow: 0 .1rem 0.5rem 0 rgba(var(--dark), .10);
+    --hover-shadow: 0 0.5rem 2rem var(--light-gray);
+    --app-transition: all 0.3s ease;
+    --light-gray: #f4f7f8;
+
+    /* Modern Effects */
+    --glass-bg: rgba(255, 255, 255, 0.7);
+    --glass-border: 1px solid rgba(255, 255, 255, 0.3);
+    --glass-shadow: var(--box-shadow);
+    --backdrop-blur: blur(12px);
+
+    /* Layout */
+    --radius-lg: 12px;
+    --radius-md: 8px;
+    --radius-sm: 4px;
+    --transition-fast: var(--app-transition);
+}
+
+/* Global Typography Override */
+body {
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+    background-color: var(--bg-color) !important;
+    color: var(--text-primary) !important;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Hide Frappe Native Sidebar */
+.layout-side-section {
+    display: none !important;
+}
+
+/* App Wrapper based on KI Admin */
+.app-wrapper {
+    display: flex;
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.app-wrapper .app-content {
+    min-height: 100vh;
+    padding: 0px 0px 0px 286px;
+    transition: var(--app-transition);
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Application Header */
+.header-main {
+    background-color: var(--glass-bg);
+    backdrop-filter: var(--backdrop-blur);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+nav .app-logo {
+    align-items: center;
+    border-bottom: 1px dashed var(--border_color);
+    display: flex;
+    height: 70px;
+    padding: 0 20px;
+    white-space: nowrap;
+}
+
+nav .app-nav {
+    height: calc(100vh - 70px);
+    overflow-y: auto;
+}
+
+nav .app-nav .main-nav {
+    list-style: none;
+    margin: 0;
+}
+
+nav .app-nav .menu-title span {
+    color: var(--font-light-color);
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    margin-bottom: 2px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+nav .app-nav .main-nav>li>a {
+    border-radius: 5px;
+    color: var(--font-color);
+    display: block !important;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    padding: 10px 14px;
+    text-transform: capitalize;
+    transition: var(--app-transition);
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+nav .app-nav .main-nav>li>a:hover,
+nav .app-nav .main-nav>li.active>a {
+    background-color: rgba(var(--primary), .1);
+    color: rgba(var(--primary), 1);
+}
+
+nav .app-nav .main-nav>li>a svg {
+    height: 20px;
+    width: 20px;
+    stroke-width: 1.5;
+    fill: none;
+    transition: var(--app-transition);
+}
+
+nav .app-nav .main-nav>li:hover>a svg,
+nav .app-nav .main-nav>li.active>a svg {
+    stroke: rgba(var(--primary), 1);
+}
+
+/* Responsive container adjustment */
+.page-head {
+    max-width: 100% !important;
+}
+
+/* Sidebar Toggle and Responsiveness */
+@media (max-width: 991px) {
+    nav {
+        margin-left: -260px;
+    }
+
+    .app-wrapper .app-content {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+
+    .sidebar-menu-opened nav {
+        margin-left: 0;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+}
+
+/* -------------------------------------------------------------------------- */
+/* MODERN WIDGET CARDS - KI-Admin Theme Override                              */
+/* -------------------------------------------------------------------------- */
+
+/* 1. The Card Container */
+.widget,
+.frappe-card,
+.desk-sidebar {
+    background: var(--surface-color) !important;
+    border-radius: var(--radius-lg) !important;
+    border: 1px solid var(--border-color-frappe) !important;
+    box-shadow: var(--box-shadow) !important;
+    transition: var(--transition-fast);
+    margin-bottom: 24px !important;
+}
+
+.widget:hover,
+.frappe-card:hover {
+    box-shadow: var(--hover-shadow) !important;
+}
+
+/* 2. Header Area */
+.widget .widget-head {
+    padding: 16px 24px !important;
+    background: transparent !important;
+    border-bottom: 1px dashed var(--border-color-frappe) !important;
+    display: flex;
+    align-items: center;
+}
+
+.widget .widget-title {
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    color: var(--text-primary) !important;
+    letter-spacing: 0;
+    margin: 0 !important;
+    text-transform: capitalize;
+}
+
+.widget .widget-subtitle {
+    display: none !important;
+}
+
+/* 3. Button/Link Items (The Rows) */
+.link-item {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 10px 14px !important;
+    margin: 4px 12px !important;
+    border-radius: 5px !important;
+    color: var(--font-color) !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    transition: var(--app-transition) !important;
+    background: transparent !important;
+    border: none !important;
+    text-decoration: none !important;
+}
+
+/* Hover Effect for Links */
+.link-item:hover {
+    background-color: rgba(var(--primary), .1) !important;
+    color: rgba(var(--primary), 1) !important;
+}
+
+/* 4. The Content and Text */
+.link-content {
+    display: flex !important;
+    align-items: center !important;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* 5. The Arrow Icon (SVG) */
+.link-item svg.es-icon {
+    width: 16px !important;
+    height: 16px !important;
+    opacity: 0.5;
+    transition: var(--app-transition);
+    stroke: var(--font-light-color) !important;
+    fill: none !important;
+}
+
+/* Show Arrow on Hover */
+.link-item:hover svg.es-icon {
+    opacity: 1;
+    stroke: rgba(var(--primary), 1) !important;
+}
+
+.link-item:hover svg.es-icon use {
+    stroke: rgba(var(--primary), 1) !important;
+}
+
+/* Hide Footer if empty */
+.widget-footer {
+    display: none !important;
+}
+
+
+
+.shortcut-widget-box {
+    cursor: pointer;
+    align-items: flex-start;
+    position: relative;
+    padding: 0.75rem 1rem;
+    background-color: var(--surface-color) !important;
+    border-radius: var(--radius-md);
+    box-shadow: var(--box-shadow);
+    transition: var(--app-transition);
+    border: 1px solid var(--border-color-frappe);
+}
+
+.shortcut-widget-box:hover {
+    box-shadow: var(--hover-shadow);
+    transform: translateY(-2px);
+}

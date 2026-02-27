@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html data-theme-mode="{{ desk_theme.lower() }}" data-theme="{{ desk_theme.lower() }}" dir={{ layout_direction }}
+    lang="{{ lang }}" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+    <title>Naidapa Theme App</title>
+
+    {% for include in include_css -%}
+    {{ include_style(include) }}
+    {%- endfor -%}
+
+    <style>
+        /* Essential structure for the custom layout since we removed it from normal CSS */
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        #naidapa-layout {
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+            background-color: var(--bg-color, #f8fafc);
+        }
+
+        .main-section {
+            flex-grow: 1;
+            overflow-y: auto;
+            position: relative;
+            background: var(--bg-color, #f8fafc);
+        }
+
+        #body {
+            min-height: calc(100vh - 40px);
+        }
+    </style>
+</head>
+
+<body>
+
+    {% include "naidapa_theme/templates/includes/ocean/main.html" %}
+
+    <!-- SVGs -->
+    <div id="all-symbols" style="display:none"></div>
+    <div id="build-events-overlay"></div>
+
+    <script type="text/javascript">
+        window._version_number = "{{ build_version }}";
+        window.app = true;
+
+        if (!window.frappe) window.frappe = {};
+
+        /* Changed this line to be safer */
+        frappe.boot = {{ boot | json }};
+        frappe._messages = frappe.boot["__messages"] || {};
+        frappe.csrf_token = "{{ csrf_token }}";
+
+        {% for path in include_icons %}
+        fetch("/assets/{{ path }}?v=" + window._version_number, { credentials: "same-origin" })
+            .then(r => r.text())
+            .then(svg => {
+                const container = document.getElementById("all-symbols");
+                if (container) container.insertAdjacentHTML("beforeend", svg);
+            });
+        {% endfor %}
+    </script>
+
+    {% for include in include_js %}
+    {{ include_script(include) }}
+    {% endfor %}
+
+</body>
+
+</html>

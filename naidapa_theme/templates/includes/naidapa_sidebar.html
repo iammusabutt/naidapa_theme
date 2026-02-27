@@ -1,0 +1,35 @@
+<nav>
+    <div class="app-logo">
+        <a class="logo d-inline-block" href="#">
+            <img alt="#" src="{{ frappe.utils.get_url() }}/assets/naidapa_theme/images/logo.png" style="height: 32px">
+        </a>
+    </div>
+
+    <div class="app-nav" id="app-simple-bar">
+        <ul class="main-nav p-0 mt-2">
+            <li class="menu-title">
+                <span>Workspace</span>
+            </li>
+
+            {% for page in pages %}
+            <li>
+                <a href="/app/{{ page.name | lower | replace(' ', '-') }}">
+                    {% if page.icon %}
+                    <svg class="icon icon-md"
+                        style="width: 20px; height: 20px; margin-right: 12px; stroke: currentColor; fill: none; stroke-width: 1.5; opacity: 0.7;">
+                        <use href="#icon-{{ page.icon }}"></use>
+                    </svg>
+                    {% else %}
+                    <svg stroke="currentColor" stroke-width="1.5">
+                        <use
+                            xlink:href="https://phpstack-1384472-5121645.cloudwaysapps.com/template/html/ki-admin/assets/svg/_sprite.svg#home">
+                        </use>
+                    </svg>
+                    {% endif %}
+                    {{ page.title }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</nav>

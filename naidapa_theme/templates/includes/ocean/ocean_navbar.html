@@ -1,0 +1,26 @@
+<div class="fixed h-[65px] transition-[margin] duration-100 xl:ml-[275px] group-[.side-menu--collapsed]:xl:ml-[90px] mt-3.5 inset-x-0 top-0 before:content-[``] before:mx-5 before:absolute before:top-0 before:inset-x-0 before:-mt-[15px] before:h-[20px] before:backdrop-blur">
+    <div class="box group absolute left-0 right-0 mx-5 md:mx-0 h-full transition-colors duration-200 ease-in-out before:absolute before:inset-x-4 before:top-0 before:z-[-1] before:mx-auto before:mt-3 before:h-full before:rounded-lg before:border before:border-slate-200 before:bg-slate-50 before:shadow-sm before:content-[``] before:dark:border-darkmode-500/60 before:dark:bg-darkmode-600/70 xl:left-3.5">
+        <div class="flex h-full w-full items-center px-5 transition-[padding] duration-300 ease-in-out">
+            <div class="flex items-center gap-1 xl:hidden">
+                <a class="p-2 rounded-full open-mobile-menu hover:bg-slate-100" href="">
+                    <i data-tw-merge="" data-lucide="align-justify" class="stroke-[1] h-[18px] w-[18px]"></i>
+                </a>
+                <a class="p-2 rounded-full hover:bg-slate-100 short-search-icon" data-tw-toggle="modal" data-tw-target="#quick-search" href="javascript:;">
+                    <i data-tw-merge="" data-lucide="search" class="stroke-[1] h-[18px] w-[18px]"></i>
+                </a>
+            </div>
+
+            <!-- BEGIN: Breadcrumb -->
+            {% include "naidapa_theme/templates/includes/breadcrumb.html" ignore missing %}
+            <!-- END: Breadcrumb -->
+
+            <!-- BEGIN: Search -->
+            {% include "naidapa_theme/templates/includes/searchbar.html" ignore missing %}
+            <!-- END: Search -->
+            
+            <!-- BEGIN: Notification & User Menu -->
+            {% include "naidapa_theme/templates/includes/user_manu.html" ignore missing %}
+            <!-- END: Notification & User Menu -->
+        </div>
+    </div>
+</div>
