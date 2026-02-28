@@ -122,6 +122,18 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+/* Prevent layout jumping */
+body.naidapa-theme-active .layout-side-section,
+body.naidapa-theme-active .sidebar-toggle-btn {
+    display: none !important;
+}
+
+/* Force container fluid if JS hasn't swapped the class yet */
+body.naidapa-theme-active .container {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
 /* Hide Frappe Native Sidebar */
 .layout-side-section {
     display: none !important;

@@ -1,99 +1,88 @@
-frappe.provide("naidapa_theme");
+(function () {
+    "use strict";
 
-naidapa_theme.setup = function () {
-    console.log("Naidapa Theme Loaded 🚀");
-    $('body').addClass('naidapa-theme-active');
+    frappe.provide("naidapa_theme");
 
-    // Example: Add a custom welcome message to the console or subtle UI tweak
-    // frappe.show_alert({
-    //     message: __('Naidapa Theme Enabled'),
-    //     indicator: 'green'
-    // });
-};
-
-$(document).on('app_ready', function () {
-    naidapa_theme.setup();
-});
-
-// Also trigger on page changes if needed
-$(document).on('page-change', function () {
-    if (!$('body').hasClass('naidapa-theme-active')) {
+    naidapa_theme.setup = function () {
         $('body').addClass('naidapa-theme-active');
-    }
-});
+        naidapa_theme.run_patches();
+    };
 
-// --- CUSTOM NAVIGATION IMPLEMENTATION ---
-// Render logic has been moved to Python / Jinja templates (app.py / app.html)
+    naidapa_theme.mutate_custom_elements = function () {
+        const changes = [
+            { selector: '.old-style-class', add: 'new-style-class', remove: 'old-style-class' },
+        ];
 
-naidapa_theme.highlight_active_route = function () {
-    const current_route = window.location.pathname;
-
-    $('.naidapa-nav-item').removeClass('active');
-
-    // Find the link that matches the current route
-    $(`.naidapa-nav-item[href="${current_route}"]`).addClass('active');
-
-    // Also try fuzzy matching
-    if (current_route && current_route !== "/app") {
-        $('.naidapa-nav-item').each(function () {
-            if ($(this).attr('href') && current_route.startsWith($(this).attr('href'))) {
-                $(this).addClass('active');
-            }
+        changes.forEach(item => {
+            let $el = $(item.selector);
+            if (item.remove) $el.removeClass(item.remove);
+            if (item.add) $el.addClass(item.add);
         });
-    }
-};
+    };
 
-// --- HOOK INTO FRAPPE LIFECYCLE ---
-
-$(document).on('app_ready', function () {
-    // Original setup call
-    naidapa_theme.setup();
-
-    setTimeout(() => {
+    naidapa_theme.run_patches = function () {
         naidapa_theme.highlight_active_route();
-        naidapa_theme.remove_native_sidebar();
-        naidapa_theme.remove_sidebar_toggle();
+        naidapa_theme.remove_native_elements();
         naidapa_theme.mutate_workspace_container();
-    }, 200);
-});
+        naidapa_theme.mutate_custom_elements();
+    };
 
-$(document).on('page-change', function () {
-    // Keep highlighting in sync as user navigates
-    setTimeout(() => {
-        naidapa_theme.highlight_active_route();
-        naidapa_theme.remove_native_sidebar();
-        naidapa_theme.remove_sidebar_toggle();
-        naidapa_theme.mutate_workspace_container();
-    }, 100);
-});
+    naidapa_theme.highlight_active_route = function () {
+        const current_route = window.location.pathname;
+        $('.naidapa-nav-item').removeClass('active');
 
-// --- OVERRIDE NATIVE DOM ELEMENTS ---
-
-naidapa_theme.remove_native_sidebar = function () {
-    const nativeSidebar = document.querySelector('.layout-side-section');
-    if (nativeSidebar) {
-        nativeSidebar.remove();
-    }
-};
-
-naidapa_theme.remove_sidebar_toggle = function () {
-    const nativeSidebarToggle = document.querySelector('.sidebar-toggle-btn');
-    if (nativeSidebarToggle) {
-        nativeSidebarToggle.remove();
-    }
-};
-
-naidapa_theme.mutate_workspace_container = function () {
-    const selectors = [
-        '#body > .content > .container',
-        '#body > .content > .page-head > .container'
-    ];
-
-    selectors.forEach(selector => {
-        const container = document.querySelector(selector);
-        if (container) {
-            container.classList.remove('container');
-            container.classList.add('container-fluid');
+        // Exact & Fuzzy matching for custom nav items
+        $(`.naidapa-nav-item[href="${current_route}"]`).addClass('active');
+        if (current_route && current_route !== "/app") {
+            $('.naidapa-nav-item').each(function () {
+                let href = $(this).attr('href');
+                if (href && current_route.startsWith(href) && href !== "/app") {
+                    $(this).addClass('active');
+                }
+            });
         }
+    };
+
+    naidapa_theme.remove_native_elements = function () {
+        $('.layout-side-section, .sidebar-toggle-btn').remove();
+    };
+
+    naidapa_theme.mutate_workspace_container = function () {
+        const selectors = [
+            '#body > .content > .container',
+            '#body > .content > .page-head > .container',
+            '.page-body.container'
+        ];
+
+        selectors.forEach(selector => {
+            $(selector).removeClass('container').addClass('container-fluid');
+        });
+    };
+
+    const view_names = ["ListView", "FormView", "KanbanView", "ReportView", "GanttView", "Workspace"];
+    view_names.forEach(name => {
+        const Orig = frappe.views[name];
+        if (!Orig) return;
+
+        frappe.views[name] = class extends Orig {
+            make() {
+                super.make();
+                naidapa_theme.run_patches();
+            }
+        };
     });
-};
+
+    const observer = new MutationObserver(() => {
+        naidapa_theme.run_patches();
+    });
+
+    $(document).ready(() => {
+        naidapa_theme.setup();
+        observer.observe(document.body, { childList: true, subtree: true });
+    });
+
+    $(document).on('app_ready page-change', function () {
+        naidapa_theme.run_patches();
+    });
+
+})();
